@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "QlYCUft9Hbk=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mrtn06\\Desktop\\MARTÍN\\MiJuegoRaylib\\MiJuegoRaylib\\MiJuegoRaylib.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mrtn06\\.nuget\\packages\\raylib-cs\\8.1.0\\raylib-cs.8.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
