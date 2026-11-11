@@ -15,7 +15,7 @@ public class Player
     private int moveDirection;
 
     // Tamaño del personaje
-    private const int PlayerSize = 50;
+    public const int PlayerSize = 50;
 
     // Velocidad vertical (píxeles por segundo)
     private float verticalVelocity;
@@ -24,10 +24,10 @@ public class Player
     private const float Gravity = 900.0f;
 
     // Impulso inicial del salto (píxeles por segundo)
-    private const float JumpSpeed = -550.0f;
+    private const float JumpSpeed = -650.0f;
 
     // Altura del suelo en coordenadas de pantalla
-    private const float GroundY = 600.0f;
+    public const float GroundY = 3720.0f;
 
     // Indica si el jugador está apoyado en el suelo
     private bool isGrounded;
@@ -74,10 +74,13 @@ public class Player
     }
 
     // Update() -> Actualiza el movimiento del personaje
-    public void Update(float fixedTimeStep)
+    public void Update(float fixedTimeStep, List<Platform> platforms)
     {
         // Movimiento horizontal
         playerX += moveDirection * MoveSpeed * fixedTimeStep;
+        
+        // Movimiento horizontal de acuerdo a los límites horizontales del escenario
+        playerX = Math.Clamp(playerX, 0.0f, GameLoop.WorldWidth - PlayerSize);
 
         // Inicia el salto únicamente desde el suelo
         if (jumpRequested && isGrounded)
@@ -92,8 +95,40 @@ public class Player
         // Aplica la gravedad
         verticalVelocity += Gravity * fixedTimeStep;
 
+        // Guarda la posición vertical anterior para detectar aterrizajes
+        float previousY = playerY;
+
         // Actualiza la posición vertical
         playerY += verticalVelocity * fixedTimeStep;
+
+        // Comprueba si el jugador aterriza sobre alguna plataforma
+        if (verticalVelocity >= 0.0f)
+        {
+            foreach (Platform platform in platforms)
+            {
+                // Comprueba si el jugador coincide horizontalmente con la plataforma
+                bool horizontalCollision =
+                    playerX + PlayerSize > platform.GetX() &&
+                    playerX < platform.GetX() + platform.GetWidth();
+
+                // Comprueba si los pies cruzan la superficie desde arriba
+                bool verticalCollision =
+                    previousY + PlayerSize <= platform.GetY() &&
+                    playerY + PlayerSize >= platform.GetY();
+
+                if (horizontalCollision && verticalCollision)
+                {
+                    // Coloca al jugador encima de la plataforma
+                    playerY = platform.GetY() - PlayerSize;
+
+                    // Detiene la caída y permite volver a saltar
+                    verticalVelocity = 0.0f;
+                    isGrounded = true;
+
+                    break;
+                }
+            }
+        }
 
         // Detecta la colisión con el suelo al caer
         if (verticalVelocity >= 0.0f &&
@@ -102,7 +137,7 @@ public class Player
             playerY = GroundY - PlayerSize;
             verticalVelocity = 0.0f;
             isGrounded = true;
-        }
+        }        
     }
 
     // Render() -> Dibuja al jugador
@@ -116,5 +151,15 @@ public class Player
             PlayerSize,
             Color.Blue
         );
+    }
+
+    public float GetX()
+    {
+        return playerX;
+    }
+
+    public float GetY()
+    {
+        return playerY;
     }
 }
