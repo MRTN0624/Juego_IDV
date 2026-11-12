@@ -255,7 +255,7 @@ public class GameLoop
         // Crea nuevamente al jugador en su posición inicial
         player = new Player(100.0f, Player.GroundY - Player.PlayerSize);
 
-        // Restablece el estado de la partida
+        // Reestablece el estado de la partida
         levelCompleted = false;
 
         // Actualiza la cámara para mostrar la posición inicial
