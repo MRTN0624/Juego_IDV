@@ -19,13 +19,13 @@ public class GameLoop
     private const double MaxFrameTime = 0.25;
 
     // Ancho de pantalla
-    private const int ScreenWidth = 1080;
+    private const int ScreenWidth = 1920/4;
 
     // Alto de pantalla
-    private const int ScreenHeight = 1920;    
+    private const int ScreenHeight = 1080/4;    
 
     // Límites del mundo
-    public const int WorldWidth = 1080;
+    public const int WorldWidth = 1920;
     public const int WorldHeight = 3840;
 
     // Indica si el jugador ha completado el nivel
@@ -89,8 +89,11 @@ public class GameLoop
     // Init() -> Inicializa la ventana del videojuego
     private void Init()
     {
-        // Crea la ventana con una resolución de 1080x1920
+        // Crea la ventana con una resolución de 1920x1080
+        Raylib.SetConfigFlags(ConfigFlags.ResizableWindow);
         Raylib.InitWindow(ScreenWidth, ScreenHeight, "Juego IDV");
+
+        Raylib.SetWindowPosition(735, 500);
 
         // Establece una frecuencia objetivo de 60 fotogramas por segundo
         Raylib.SetTargetFPS(60);
