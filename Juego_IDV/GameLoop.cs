@@ -12,6 +12,9 @@ public class GameLoop
     // La cámara
     private Camera2D camera; 
 
+    // Superficie de dibujo que conserva la proporción vertical del juego
+    private RenderTexture2D gameTexture;
+
     // Duración de cada paso fijo de simulación (60 Hz)
     private const double FixedTimeStep = 1.0 / 60.0;
 
@@ -65,6 +68,12 @@ public class GameLoop
             // Añade el tiempo transcurrido al acumulador
             lag += deltaTime;
 
+            // Alterna entre modo ventana y pantalla completa
+            if (Raylib.IsKeyPressed(KeyboardKey.F11))
+            {
+                Raylib.ToggleFullscreen();
+            }
+
             // Lee las entradas del jugador
             ReadInput();
 
@@ -82,6 +91,9 @@ public class GameLoop
             Render();
         }
 
+        // Libera la superficie de dibujo del juego
+        Raylib.UnloadRenderTexture(gameTexture);
+
         // Cierra la ventana y libera los recursos de Raylib
         Raylib.CloseWindow();
     }
@@ -89,8 +101,14 @@ public class GameLoop
     // Init() -> Inicializa la ventana del videojuego
     private void Init()
     {
+        // Permite cambiar el tamaño de la ventana
+        Raylib.SetConfigFlags(ConfigFlags.ResizableWindow);
+
         // Crea la ventana con una resolución de 1080x1920
-        Raylib.InitWindow(ScreenWidth, ScreenHeight, "Juego IDV");
+        Raylib.InitWindow(ScreenWidth / 2, ScreenHeight / 2, "Juego IDV");
+
+        // Crea la superficie de dibujo con la resolución interna del juego
+        gameTexture = Raylib.LoadRenderTexture(ScreenWidth, ScreenHeight);
 
         // Establece una frecuencia objetivo de 60 fotogramas por segundo
         Raylib.SetTargetFPS(60);
@@ -177,8 +195,8 @@ public class GameLoop
     // Render() -> Dibuja los elementos del videojuego
     private void Render()
     {
-        // Inicia el proceso de dibujo del fotograma
-        Raylib.BeginDrawing();
+        // Dibuja primero el juego a su resolución vertical original
+        Raylib.BeginTextureMode(gameTexture);
 
         // Limpia la pantalla utilizando un fondo negro
         Raylib.ClearBackground(Color.Black);
@@ -244,6 +262,34 @@ public class GameLoop
                 Color.White
             );
         }
+
+        // Termina el dibujo en la superficie vertical del juego
+        Raylib.EndTextureMode();
+
+        // Calcula el tamaño disponible y mantiene la proporción 9:16
+        int windowWidth = Raylib.GetScreenWidth();
+        int windowHeight = Raylib.GetScreenHeight();
+        float scale = Math.Min((float)windowWidth / ScreenWidth, (float)windowHeight / ScreenHeight);
+        float drawWidth = ScreenWidth * scale;
+        float drawHeight = ScreenHeight * scale;
+        float drawX = (windowWidth - drawWidth) / 2.0f;
+        float drawY = (windowHeight - drawHeight) / 2.0f;
+
+        // Inicia el proceso de dibujo del fotograma
+        Raylib.BeginDrawing();
+
+        // Dibuja las bandas negras fuera del área vertical del juego
+        Raylib.ClearBackground(Color.Black);
+
+        // Adapta la imagen del juego al tamaño de la ventana sin deformarla
+        Raylib.DrawTexturePro(
+            gameTexture.Texture,
+            new Rectangle(0, 0, ScreenWidth, -ScreenHeight),
+            new Rectangle(drawX, drawY, drawWidth, drawHeight),
+            Vector2.Zero,
+            0.0f,
+            Color.White
+        );
 
         // Finaliza el dibujo y presenta el fotograma
         Raylib.EndDrawing();
