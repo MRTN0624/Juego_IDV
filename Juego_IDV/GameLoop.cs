@@ -133,7 +133,6 @@ public class GameLoop
     }
 
     // ReadInput() -> Lee las entradas del teclado
-    // ReadInput() -> Lee las entradas del teclado
     private void ReadInput()
     {
         // Permite reiniciar el nivel cuando se ha completado
