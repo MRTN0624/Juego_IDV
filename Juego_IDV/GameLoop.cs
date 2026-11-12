@@ -89,7 +89,7 @@ public class GameLoop
     // Init() -> Inicializa la ventana del videojuego
     private void Init()
     {
-        // Crea la ventana con una resolución de 720×900
+        // Crea la ventana con una resolución de 1080x1920
         Raylib.InitWindow(ScreenWidth, ScreenHeight, "Juego IDV");
 
         // Establece una frecuencia objetivo de 60 fotogramas por segundo
