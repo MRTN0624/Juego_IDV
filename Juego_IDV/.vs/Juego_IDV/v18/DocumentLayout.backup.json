@@ -1,0 +1,352 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\GameLoop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GameLoop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\Platform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Platform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\Level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\ExitDoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ExitDoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\Juego_IDV.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Juego_IDV.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\obj\\Debug\\net10.0\\Juego_IDV.GlobalUsings.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net10.0\\Juego_IDV.GlobalUsings.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\obj\\Debug\\net10.0\\Juego_IDV.csproj.CoreCompileInputs.cache||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net10.0\\Juego_IDV.csproj.CoreCompileInputs.cache||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\obj\\Debug\\net10.0\\Juego_IDV.csproj.Up2Date||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net10.0\\Juego_IDV.csproj.Up2Date||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\obj\\Debug\\net10.0\\Juego_IDV.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net10.0\\Juego_IDV.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\obj\\Debug\\net10.0\\Juego_IDV.GeneratedMSBuildEditorConfig.editorconfig||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net10.0\\Juego_IDV.GeneratedMSBuildEditorConfig.editorconfig||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\obj\\Debug\\net10.0\\Juego_IDV.genruntimeconfig.cache||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net10.0\\Juego_IDV.genruntimeconfig.cache||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\obj\\Debug\\net10.0\\Juego_IDV.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net10.0\\Juego_IDV.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\obj\\Debug\\net10.0\\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net10.0\\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\bin\\Debug\\net10.0\\Raylib-cs.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\net10.0\\Raylib-cs.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\bin\\Debug\\net10.0\\Juego_IDV.runtimeconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\net10.0\\Juego_IDV.runtimeconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\bin\\Debug\\net10.0\\Juego_IDV.exe||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\net10.0\\Juego_IDV.exe||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\bin\\Debug\\net10.0\\Juego_IDV.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\net10.0\\Juego_IDV.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\bin\\Debug\\net10.0\\Juego_IDV.deps.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\net10.0\\Juego_IDV.deps.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Juego_IDV.AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\obj\\Debug\\net10.0\\Juego_IDV.AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\net10.0\\Juego_IDV.AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\obj\\Debug\\net10.0\\Juego_IDV.AssemblyInfo.cs",
+              "RelativeToolTip": "obj\\Debug\\net10.0\\Juego_IDV.AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T20:17:05.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": ".NETCoreApp,Version=v10.0.AssemblyAttributes.cs",
+              "DocumentMoniker": "C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\obj\\Debug\\net10.0\\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\net10.0\\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs",
+              "ToolTip": "C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\obj\\Debug\\net10.0\\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs",
+              "RelativeToolTip": "obj\\Debug\\net10.0\\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T20:17:04.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Juego_IDV.csproj",
+              "DocumentMoniker": "C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\Juego_IDV.csproj",
+              "RelativeDocumentMoniker": "Juego_IDV.csproj",
+              "ToolTip": "C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\Juego_IDV.csproj",
+              "RelativeToolTip": "Juego_IDV.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-11-12T20:16:29.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T20:16:55.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Platform.cs",
+              "DocumentMoniker": "C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\Platform.cs",
+              "RelativeDocumentMoniker": "Platform.cs",
+              "ToolTip": "C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\Platform.cs",
+              "RelativeToolTip": "Platform.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T20:16:21.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ExitDoor.cs",
+              "DocumentMoniker": "C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\ExitDoor.cs",
+              "RelativeDocumentMoniker": "ExitDoor.cs",
+              "ToolTip": "C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\ExitDoor.cs",
+              "RelativeToolTip": "ExitDoor.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T20:16:49.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameLoop.cs",
+              "DocumentMoniker": "C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\GameLoop.cs",
+              "RelativeDocumentMoniker": "GameLoop.cs",
+              "ToolTip": "C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\GameLoop.cs",
+              "RelativeToolTip": "GameLoop.cs",
+              "ViewState": "AgIAAAoBAAAAAAAAAAAAAAoBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T20:21:40.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Level.cs",
+              "DocumentMoniker": "C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\Level.cs",
+              "RelativeDocumentMoniker": "Level.cs",
+              "ToolTip": "C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\Level.cs",
+              "RelativeToolTip": "Level.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T20:16:19.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\Player.cs",
+              "RelativeDocumentMoniker": "Player.cs",
+              "ToolTip": "C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\Player.cs",
+              "RelativeToolTip": "Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T20:16:20.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Juego_IDV.GlobalUsings.g.cs",
+              "DocumentMoniker": "C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\obj\\Debug\\net10.0\\Juego_IDV.GlobalUsings.g.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\net10.0\\Juego_IDV.GlobalUsings.g.cs",
+              "ToolTip": "C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\obj\\Debug\\net10.0\\Juego_IDV.GlobalUsings.g.cs",
+              "RelativeToolTip": "obj\\Debug\\net10.0\\Juego_IDV.GlobalUsings.g.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T20:17:08.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Juego_IDV.genruntimeconfig.cache",
+              "DocumentMoniker": "C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\obj\\Debug\\net10.0\\Juego_IDV.genruntimeconfig.cache",
+              "RelativeDocumentMoniker": "obj\\Debug\\net10.0\\Juego_IDV.genruntimeconfig.cache",
+              "ToolTip": "C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\obj\\Debug\\net10.0\\Juego_IDV.genruntimeconfig.cache",
+              "RelativeToolTip": "obj\\Debug\\net10.0\\Juego_IDV.genruntimeconfig.cache",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002368|",
+              "WhenOpened": "2026-11-12T20:17:09.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Juego_IDV.GeneratedMSBuildEditorConfig.editorconfig",
+              "DocumentMoniker": "C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\obj\\Debug\\net10.0\\Juego_IDV.GeneratedMSBuildEditorConfig.editorconfig",
+              "RelativeDocumentMoniker": "obj\\Debug\\net10.0\\Juego_IDV.GeneratedMSBuildEditorConfig.editorconfig",
+              "ToolTip": "C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\obj\\Debug\\net10.0\\Juego_IDV.GeneratedMSBuildEditorConfig.editorconfig",
+              "RelativeToolTip": "obj\\Debug\\net10.0\\Juego_IDV.GeneratedMSBuildEditorConfig.editorconfig",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-12T20:17:10.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Juego_IDV.dll",
+              "DocumentMoniker": "C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\obj\\Debug\\net10.0\\Juego_IDV.dll",
+              "RelativeDocumentMoniker": "obj\\Debug\\net10.0\\Juego_IDV.dll",
+              "ToolTip": "C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\obj\\Debug\\net10.0\\Juego_IDV.dll",
+              "RelativeToolTip": "obj\\Debug\\net10.0\\Juego_IDV.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2026-11-12T20:17:10.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Juego_IDV.csproj.Up2Date",
+              "DocumentMoniker": "C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\obj\\Debug\\net10.0\\Juego_IDV.csproj.Up2Date",
+              "RelativeDocumentMoniker": "obj\\Debug\\net10.0\\Juego_IDV.csproj.Up2Date",
+              "ToolTip": "C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\obj\\Debug\\net10.0\\Juego_IDV.csproj.Up2Date",
+              "RelativeToolTip": "obj\\Debug\\net10.0\\Juego_IDV.csproj.Up2Date",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-12T20:17:11.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Juego_IDV.csproj.CoreCompileInputs.cache",
+              "DocumentMoniker": "C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\obj\\Debug\\net10.0\\Juego_IDV.csproj.CoreCompileInputs.cache",
+              "RelativeDocumentMoniker": "obj\\Debug\\net10.0\\Juego_IDV.csproj.CoreCompileInputs.cache",
+              "ToolTip": "C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\obj\\Debug\\net10.0\\Juego_IDV.csproj.CoreCompileInputs.cache",
+              "RelativeToolTip": "obj\\Debug\\net10.0\\Juego_IDV.csproj.CoreCompileInputs.cache",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002368|",
+              "WhenOpened": "2026-11-12T20:17:13.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Raylib-cs.dll",
+              "DocumentMoniker": "C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\bin\\Debug\\net10.0\\Raylib-cs.dll",
+              "RelativeDocumentMoniker": "bin\\Debug\\net10.0\\Raylib-cs.dll",
+              "ToolTip": "C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\bin\\Debug\\net10.0\\Raylib-cs.dll",
+              "RelativeToolTip": "bin\\Debug\\net10.0\\Raylib-cs.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2026-11-12T20:16:42.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Juego_IDV.runtimeconfig.json",
+              "DocumentMoniker": "C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\bin\\Debug\\net10.0\\Juego_IDV.runtimeconfig.json",
+              "RelativeDocumentMoniker": "bin\\Debug\\net10.0\\Juego_IDV.runtimeconfig.json",
+              "ToolTip": "C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\bin\\Debug\\net10.0\\Juego_IDV.runtimeconfig.json",
+              "RelativeToolTip": "bin\\Debug\\net10.0\\Juego_IDV.runtimeconfig.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-12T20:16:41.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Juego_IDV.exe",
+              "DocumentMoniker": "C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\bin\\Debug\\net10.0\\Juego_IDV.exe",
+              "RelativeDocumentMoniker": "bin\\Debug\\net10.0\\Juego_IDV.exe",
+              "ToolTip": "C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\bin\\Debug\\net10.0\\Juego_IDV.exe",
+              "RelativeToolTip": "bin\\Debug\\net10.0\\Juego_IDV.exe",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000165|",
+              "WhenOpened": "2026-11-12T20:16:41.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Juego_IDV.dll",
+              "DocumentMoniker": "C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\bin\\Debug\\net10.0\\Juego_IDV.dll",
+              "RelativeDocumentMoniker": "bin\\Debug\\net10.0\\Juego_IDV.dll",
+              "ToolTip": "C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\bin\\Debug\\net10.0\\Juego_IDV.dll",
+              "RelativeToolTip": "bin\\Debug\\net10.0\\Juego_IDV.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2026-11-12T20:16:39.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Juego_IDV.deps.json",
+              "DocumentMoniker": "C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\bin\\Debug\\net10.0\\Juego_IDV.deps.json",
+              "RelativeDocumentMoniker": "bin\\Debug\\net10.0\\Juego_IDV.deps.json",
+              "ToolTip": "C:\\Users\\adrie\\Desktop\\Juego_IDV\\Juego_IDV\\bin\\Debug\\net10.0\\Juego_IDV.deps.json",
+              "RelativeToolTip": "bin\\Debug\\net10.0\\Juego_IDV.deps.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-12T20:16:38.61Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
